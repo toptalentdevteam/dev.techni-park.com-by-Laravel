@@ -1,0 +1,17 @@
+[2022-02-16 06:39:30] local.ERROR: LogicException: Unable to prepare route [api/user] for serialization. Uses Closure. in /home/techni-park.com/gestanweb/vendor/laravel/framework/src/Illuminate/Routing/Route.php:817
+Stack trace:
+#0 /home/techni-park.com/gestanweb/vendor/laravel/framework/src/Illuminate/Foundation/Console/RouteCacheCommand.php(62): Illuminate\Routing\Route->prepareForSerialization()
+#1 [internal function]: Illuminate\Foundation\Console\RouteCacheCommand->fire()
+#2 /home/techni-park.com/gestanweb/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(29): call_user_func_array()
+#3 /home/techni-park.com/gestanweb/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(87): Illuminate\Container\BoundMethod::Illuminate\Container\{closure}()
+#4 /home/techni-park.com/gestanweb/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(31): Illuminate\Container\BoundMethod::callBoundMethod()
+#5 /home/techni-park.com/gestanweb/vendor/laravel/framework/src/Illuminate/Container/Container.php(539): Illuminate\Container\BoundMethod::call()
+#6 /home/techni-park.com/gestanweb/vendor/laravel/framework/src/Illuminate/Console/Command.php(182): Illuminate\Container\Container->call()
+#7 /home/techni-park.com/gestanweb/vendor/symfony/console/Command/Command.php(255): Illuminate\Console\Command->execute()
+#8 /home/techni-park.com/gestanweb/vendor/laravel/framework/src/Illuminate/Console/Command.php(167): Symfony\Component\Console\Command\Command->run()
+#9 /home/techni-park.com/gestanweb/vendor/symfony/console/Application.php(969): Illuminate\Console\Command->run()
+#10 /home/techni-park.com/gestanweb/vendor/symfony/console/Application.php(255): Symfony\Component\Console\Application->doRunCommand()
+#11 /home/techni-park.com/gestanweb/vendor/symfony/console/Application.php(148): Symfony\Component\Console\Application->doRun()
+#12 /home/techni-park.com/gestanweb/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(122): Symfony\Component\Console\Application->run()
+#13 /home/techni-park.com/gestanweb/artisan(35): Illuminate\Foundation\Console\Kernel->handle()
+#14 {main}  

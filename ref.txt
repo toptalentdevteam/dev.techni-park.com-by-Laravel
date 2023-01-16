@@ -1,0 +1,79 @@
+
+site: dev.techni-park.com
+email:  j.noel@domoticopale.fr
+pwd: 123456
+
+-FTP
+
+153.92.223.146
+
+admin_devapp / ht21unoaLiLa6tjd
+
+
+- Front End :
+
+/home/dev.techni-park.com/dev.techni-park.com
+
+
+ Backend :
+
+/home/dev.techni-park.com/gestinter
+
+
+VIEWS :
+
+look in /home/dev.techni-park.com/gestinter/resources/views/vendor/boilerplate/tasks
+
+
+Cyberpanel :
+
+https://153.92.223.146:8090/
+
+login : devapp
+
+pwd : ht21unoaLiLa6tjd
+
+
+1) files - source code
+
+https://153.92.223.146:8090/filemanager/dev.techni-park.com
+
+
+2) PhpMyAdmin
+
+Database : dev_gestinter
+
+https://153.92.223.146:8090/phpmyadmin/index.php?route=/database/structure&server=1&db=dev_gestinter
+
+It is made with : Laravel - PHP 7.4
+
+Connexion Database : Eloquent
+
+Template  : https://laravel.com/docs/9.x/blade
+
+
+
+1) "Enregistrer" (Save) => add the record to the INGREDIENT table
+2) "Annuler" (Cancel) => close the windows without saving
+3) Modifier (Modify) => The fields PU_ACHAT, PU_VENTE are editable in addition to the fields Quantité (quantity), Type, Commentaires (Feedback)
+
+
+First line : REFERENCE
+5:29 PM
+Second ligne : DEscription (Designation)
+5:29 PM
+3rd line : Type and at the right , Quantité (in bold) : xx Unite
+5:30 PM
+1rst line , at the right, the icons (Eye and Bin)
+
+
+https://128.199.174.114:8443/smb/file-manager/list
+
+user : root
+
+passwd : Plesk@4011..
+
+dossier-99201cf.com/old
+
+
+
